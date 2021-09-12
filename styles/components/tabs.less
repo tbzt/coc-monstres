@@ -1,0 +1,46 @@
+@tabFont: Misfits;
+@tabColor: #ffe200;
+@tabBgColor: #ff0008;
+@tabHoverColor: rgba(255, 226, 0, 0.44);
+@tabHoverBgColor: rgba(255, 0, 8, 0.44);
+@tabActiveColor: #ffe200;
+@tabActiveBgColor: rgba(255, 0, 8, 0.66);
+
+nav.sheet-navigation {
+  border: none;
+
+  &.tabs {
+    //font: 14px @font-primary;
+    font-family: @tabFont;
+    font-size: 14px;
+    //color: @c-darkbrown;
+    color: @tabColor;
+    text-align: center;
+    border: none;
+
+    .item {
+      .ellipsis();
+      padding: 5px 10px 5px 10px;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      margin: 0 3px 0 0;
+      height: 28px;
+      box-shadow: 0 0 10px @c-shadow inset;
+      //background:#AAA;
+      background:@tabBgColor;
+
+      &:hover {
+        color: @tabHoverColor;
+        background:@tabHoverBgColor;
+        text-shadow: none;
+      }
+      &.active {
+        background: @tabActiveBgColor;
+        color: @tabActiveColor;
+        border: 2px inset @tabActiveColor;
+        z-index: 10000;
+        text-shadow: none;
+      }
+    }
+  }
+}

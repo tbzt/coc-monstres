@@ -4,6 +4,17 @@
 @import 'utils/variables';
 
 /* Styles limited to co sheets */
-.coc.monstres {
-  font-family: @font-primary;
+/* Styles limited to co sheets */
+.coc {
+
+  &.monstres{
+    font-family: @font-primary;
+    &.actor {
+      @import 'styles/components/actor';
+    }
+    &.item {
+      @import 'styles/components/item';
+    }
+    @import 'styles/components/tabs';
+  }
 }
