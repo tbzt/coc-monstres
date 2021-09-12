@@ -1,0 +1,147 @@
+/* ----------------------------------------- */
+/*  Premade colors                           */
+/* ----------------------------------------- */
+.light {
+  color: lightgray;
+}
+.bg-light {
+  background: lightgray;
+}
+.darkgray {
+  color: #23221d;
+}
+.bg-darkgray {
+  background: #23221d;
+  color: #fff;
+}
+.darkbrown {
+  color: #464331c4;
+}
+.bg-darkbrown {
+  background: #464331c4;
+  color: #fff;
+}
+.darkslate {
+  color: darkslategray;
+}
+.bg-darkslate {
+  background: darkslategray;
+  color: #fff;
+}
+.darkgreen {
+  color: #003c1e;
+}
+.bg-darkgreen {
+  background: #003c1e;
+  color: #fff;
+}
+.darkblue {
+  color: midnightblue;
+}
+.bg-darkblue {
+  background: midnightblue;
+  color: #fff;
+}
+.blue {
+  color: #009ee0;
+}
+.bg-blue {
+  background: #009ee0;
+  color: #fff;
+}
+.green {
+  color: #44a12b;
+}
+.bg-green {
+  background: #44a12b;
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+.red {
+  color: #cd071e;
+}
+.bg-red {
+  background: #cd071e;
+  color: #fff;
+}
+.purple {
+  color: purple;
+}
+.bg-purple {
+  background: purple;
+  color: #fff;
+}
+/* ----------------------------------------- */
+/*  LOCAL FONTS                             */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/*  TEXT STYLES                             */
+/* ----------------------------------------- */
+.strong {
+  font-weight: bold;
+}
+.font-sm {
+  font-size: smaller;
+}
+.font-lg {
+  font-size: larger;
+}
+.font-light {
+  font-weight: lighter;
+}
+.font-bold {
+  font-weight: bolder;
+}
+.element-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.nomargin {
+  margin: 0;
+  padding: 0;
+}
+.flxrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.flxrow > * {
+  flex: 1;
+}
+.flxrow .flex1 {
+  flex: 1;
+}
+.flxrow .flex2 {
+  flex: 2;
+}
+.flxrow .flex3 {
+  flex: 3;
+}
+.flxrow .flex4 {
+  flex: 4;
+}
+/* Styles limited to co sheets */
+.coc.monstres {
+  font-family: 'MyriadPro', sans-serif;
+}
