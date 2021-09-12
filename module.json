@@ -27,7 +27,7 @@
     {
       "name": "capacities",
       "label": "Capacités",
-      "system": "coc-monstres",
+      "system": "coc",
       "path": "./packs/capacities.db",
       "entity": "Item",
       "tag": "capacity"
@@ -35,7 +35,7 @@
     {
       "name": "items",
       "label": "Equipement",
-      "system": "coc-monstres",
+      "system": "coc",
       "path": "./packs/items.db",
       "entity": "Item",
       "tag": "item"
@@ -43,7 +43,7 @@
     {
       "name": "paths",
       "label": "Voies",
-      "system": "coc-monstres",
+      "system": "coc",
       "path": "./packs/paths.db",
       "entity": "Item",
       "tag": "path"
@@ -51,7 +51,7 @@
     {
       "name": "profiles",
       "label": "Profils",
-      "system": "coc-monstres",
+      "system": "coc",
       "path": "./packs/profiles.db",
       "entity": "Item",
       "tag": "profile"
@@ -59,7 +59,7 @@
     {
       "name": "traits",
       "label": "Traits",
-      "system": "coc-monstres",
+      "system": "coc",
       "path": "./packs/traits.db",
       "entity": "Item",
       "tag": "trait"
