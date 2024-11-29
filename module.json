@@ -66,7 +66,7 @@
     }
   ],
   "url": "https://github.com/ZigmundKreud/coc-monstres.git",
-  "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc-monstres/main/module.json",
-  "download": "https://github.com/ZigmundKreud/coc-monstres/archive/refs/tags/0.8.9.1.zip",
+  "manifest": "https://raw.githubusercontent.com/tbzt/coc-monstres/main/module.json",
+  "download": "https://github.com/tbzt/coc-monstres/archive/refs/tags/0.8.9.1.zip",
   "license": "licence.txt"
 }
